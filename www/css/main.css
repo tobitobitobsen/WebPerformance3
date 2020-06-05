@@ -3681,7 +3681,7 @@
 			min-width: 100%;
 			min-height: 100%;
 			overflow: hidden;
-			display: none;
+			/*display: none;*/
 		}
 
 		@media screen and (max-width: 736px) {
@@ -3690,6 +3690,11 @@
 				min-height: 0;
 				height: auto !important;
 				padding: 4em 2em;
+
+			}
+
+			#banner video {
+				bottom: 100%;
 			}
 
 				#banner .inner {
