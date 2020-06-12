@@ -21,7 +21,6 @@ Ziel der Aufgabe ist es folgende Scores mit Lighthouse zu erreichen:
  - Accessibility > 90
  - Best Practices > 90
  - SEO > 90
- - Voll funktionsfähige PWA 
 
 ## Links
  
