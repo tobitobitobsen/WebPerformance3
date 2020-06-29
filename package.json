@@ -1,8 +1,16 @@
 {
   "devDependencies": {
+    "critical": "^2.0.1",
     "http-server": "^0.12.3"
   },
   "scripts": {
     "start": "http-server www -p 8080"
+  },
+  "dependencies": {
+    "imagemin": "^7.0.1",
+    "imagemin-mozjpeg": "^9.0.0",
+    "serve": "^11.3.2",
+    "uglify-js": "^3.9.4",
+    "uglifycss": "0.0.29"
   }
 }

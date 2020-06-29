@@ -1,5 +1,17 @@
 /* skel.js v3.0.2-dev | (c) skel.io | MIT licensed */
 
+const minify = require('minify');
+const options = {
+	html: {
+		removeAttributeQuotes: false,
+		removeOptionalTags: false
+	},
+};
+
+minify('js/jquerycritical.js', options)
+	.then(console.log)
+	.catch(console.error);
+
 var skel = (function() { "use strict"; var _ = {
 
 	/******************************/
