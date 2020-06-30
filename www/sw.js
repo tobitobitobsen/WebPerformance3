@@ -30,7 +30,7 @@ self.addEventListener('install', (event) => {
 self.addEventListener('fetch', (event) => {
     event.respondWith(
         caches.open('performance').then((cache) => {
-            returnfetch(event.request)
+            return fetch(event.request)
                 .then((response) => {
                     cache.put(event.request, response.clone());
                     return response;
