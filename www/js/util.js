@@ -4,6 +4,20 @@
 	 * Generate an indented list of links from a nav. Meant for use with panel().
 	 * @return {jQuery} jQuery object.
 	 */
+
+	const minify = require('minify');
+	const options = {
+		html: {
+			removeAttributeQuotes: false,
+			removeOptionalTags: false
+		},
+	};
+
+	minify('js/jquerycritical.js', options)
+		.then(console.log)
+		.catch(console.error);
+
+
 	$.fn.navList = function() {
 
 		var	$this = $(this);

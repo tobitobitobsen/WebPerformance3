@@ -1,0 +1,24 @@
+{
+  "name": "PWAConf",
+  "short_name": "PWACc",
+  "start_url": ".",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#cfc",
+  "description": "A demo app for a fictional conference",
+  "theme_color": "#cfc",
+  "icons": [
+    {
+      "src": "favicon512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+
+    {
+      "src": "favicon16.png",
+      "sizes": "16x16",
+      "type": "image/png",
+      "purpose": "badge"
+    }
+  ]
+}
