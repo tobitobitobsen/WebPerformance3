@@ -12,22 +12,12 @@ self.addEventListener('install', (event) => {
               '/js/main.js',
               '/js/skel.js',
               '/js/util.js',
-              'favicon.ico',
-              '/css/style.css',
+              'favicon192.png',
+              'favicon512.png',
+              'favicon16.png',
+              '/css/style.critical.css',
+              '/css/font-awesome.css',
               'manifest.webmanifest',
-              '/image/pic01.webp',
-              '/image/pic02.webp',
-              '/image/pic03.webp',
-              '/image/pic04.webp',
-              '/image/pic05.webp',
-              '/image/pic06.webp',
-              '/image/pic07.webp',
-              '/image/pic08.webp',
-              '/image/pic09.webp',
-              '/image/pic10.webp',
-              '/image/pic11.webp',
-              '/image/bg.webp',
-              '/image/banner.webp'
           ]))
   );
 });

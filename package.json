@@ -9,6 +9,7 @@
   "dependencies": {
     "imagemin": "^7.0.1",
     "imagemin-mozjpeg": "^9.0.0",
+    "node-cleanup": "^2.1.2",
     "serve": "^11.3.2",
     "uglify-js": "^3.9.4",
     "uglifycss": "0.0.29"
