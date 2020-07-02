@@ -1,3 +1,6 @@
+
+//https://github.com/addyosmani/critical
+
 const critical = require('critical');
 
 critical.generate({
@@ -5,9 +8,12 @@ critical.generate({
     base: 'www/',
     src: 'index.html',
     target: {
-        html: 'index-critical.html',
-        css: 'critical.css'
+      html: 'index-critical.html',
+      css: 'critical.css'
     },
-    width: 1300,
-    height: 900
+    width: 1400,
+    height: 1200,
+
+    minify: true,
+    extract: true,
 });

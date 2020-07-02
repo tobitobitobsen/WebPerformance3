@@ -1,16 +1,15 @@
+//https://github.com/imagemin/imagemin-webp
+
 const imagemin = require('imagemin');
-const imageminMozjpeg = require('imagemin-mozjpeg');
+const imageminWebp = require('imagemin-webp');
 
 (async () => {
-    const files = await imagemin(['images/*.jpg'], {
-        destination: 'images',
-        plugins: [
-            imageminMozjpeg(
-                {quality:30,}
-            ),
-        ]
-    });
+    await imagemin(['images/pic11.webp'], {
+		destination: 'images',
+		plugins: [
+			imageminWebp({quality: 1})
+		]
+	});
 
-    console.log(files);
-    //=> [{data: <Buffer 89 50 4e …>, destinationPath: 'build/images/foo.jpg'}, …]
+	console.log('Images optimized');
 })();
